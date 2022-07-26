@@ -1,0 +1,27 @@
+0) At the top there is navigation bar which is rendered in every single route
+  - Clicking on the logo refreshes the current page
+  - Items:
+   a) Home - Jumps to 1. (default page)
+   b) Customers - Jumps to 2.
+   c) Car Wash Programs - Jumps to 4.
+   d) Add a Customer - Opens the drawer on the left with the form 
+   e) Add a Car Wash Program - Opens the drawer on the left with the form
+   f) Clicking the "Sun" Icon toggles the theme of the app
+1) Route: "/" - Lists the complete history of all the car washes
+  - Ability to download pdf for a specific car wash
+  - Clicking the picture of a card, or the name of the customer jumps to route 3.
+  - Clicking the name of the car wash program in a card jumps to route 5.
+2) Route: "/customers" - Lists all the customers
+  - Ability to search them via the input field at the top
+  - Clicking the picture of a card, or the name of the customer jumps to route 3.
+3) Route: "/customers/:id_customer" - Shows the details of a customer and a full history of his car washes
+  - Ability to add a car wash for a customer clicking on the button "Add a car wash" - Drawer pops from the right with the form
+  - Ability to search and filter the table of car washes by columns
+  - Downloading a pdf for a specific car wash
+4) Route: "/car_wash_programs" - Lists all car wash programs
+  - Ability to search them via the input field at the top
+  - Clicking the picture of a card, or name of the car wash program jumps to route 5.
+5) Route: "/car_wash_programs/:id_car_wash_program" - Shows the details of a car wash program and a full history of its use
+  - Ability to add a car wash for a car wash program clicking on the button "Add a car wash" - Drawer pops from the right with the form
+  - Ability to search and filter the table of car washes by columns
+  - Downloading a pdf for a specific car wash

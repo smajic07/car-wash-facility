@@ -1,0 +1,21 @@
+Project consist of two parts:
+1. car_wash_api- Coded in Django (DB: SQLite)
+2. car_wash_app - Coded in React.js
+
+How to run the project:
+0) extract the project
+1) run the API part
+  a) open the API folder in any Python friendly environment (recommended: PyCharm).
+  b) execute the following command in the terminal:
+    "python manage.py runserver"
+2) run the APP part
+  a) open the APP folder in any React friendly environment (recommended: Visual Studio Code).
+  b) execute the following commands in the terminal: 
+    "npm install all"
+    "npm start"
+
+* APP part is run on: http://localhost:3000/
+* API communicates with the APP part on: http://127.0.0.1:8000/
+
+NOTE:
+- Python & Conda need to be preinstalled for the API project to run as expected

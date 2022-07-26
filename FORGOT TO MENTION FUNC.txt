@@ -1,0 +1,9 @@
+When creating a customer, if email field is not empty, an e-mail message is going to be sent to the email address entered
+letting the email owner know that an account with his email credentials has been created on this Car Wash Facility.
+Every car wash an email message is sent to a customer letting him know how many more times he needs to wash his car to get 
+a discount. (If he got a discount on the last car wash this is going to be the content of the email)
+
+Live updating contents of DataGrid table of Car Washes when adding another car wash, for a customer, and for a car wash program.
+That's not all, live update is happening even on the card of a customer or a car wash program because this car wash that we just added
+need to be added to the number of car washes for a customer/car wash program, and also it can be modulo 10 wash so we need to inc the 
+number of discounted car wash programs on the front-end in real time (immidiately) :)

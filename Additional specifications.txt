@@ -1,0 +1,10 @@
+Additional functionalities:
+1. Ability to download PDF for a specific car wash
+2. Customer can have a profile picture,
+3. Dark & Light Theme,
+4. Additional columns in corresponding tables in the Data Base,
+5. Ability to search customers & car wash programs
+6. Tiny statistics available for a customer as well as for the car wash program
+
+DIDN't MENTION: 
+STUFF WITH E-MAILs...
